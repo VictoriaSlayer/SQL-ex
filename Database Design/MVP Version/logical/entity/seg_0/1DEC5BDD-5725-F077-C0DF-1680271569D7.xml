@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1DEC5BDD-5725-F077-C0DF-1680271569D7" name="Книга">
+<createdBy>Saint</createdBy>
+<createdTime>2025-05-31 11:38:39 UTC</createdTime>
+<ownerDesignName>MVP Version</ownerDesignName>
+<engineerTo>
+<item key="B3F40409-EA59-7AB3-7C6F-7CEBAFB48627" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+</Entity>
