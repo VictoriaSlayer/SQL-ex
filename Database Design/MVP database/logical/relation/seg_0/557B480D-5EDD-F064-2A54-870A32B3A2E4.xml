@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="557B480D-5EDD-F064-2A54-870A32B3A2E4">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-08 19:09:36 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>072BF16C-9F3E-A20A-86A8-E13F7D078089</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FD970466-248C-0063-1059-1111C88AD90E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

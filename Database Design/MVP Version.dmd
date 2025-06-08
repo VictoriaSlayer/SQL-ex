@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MVP Version" id="7DA3B449-2696-5FEC-57CD-979B55945FC2" version="3.5">
-<createdBy>Saint</createdBy>
-<createdTime>2025-05-31 11:19:24 UTC</createdTime>
-<ownerDesignName>MVP Version</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>7DA3B449-2696-5FEC-57CD-979B55945FC2</designId>
-</OSDM_Design>

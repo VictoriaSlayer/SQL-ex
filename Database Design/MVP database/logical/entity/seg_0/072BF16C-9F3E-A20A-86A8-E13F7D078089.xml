@@ -1,11 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1DEC5BDD-5725-F077-C0DF-1680271569D7" name="Книга">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="072BF16C-9F3E-A20A-86A8-E13F7D078089" name="Entity_2">
 <createdBy>Saint</createdBy>
-<createdTime>2025-05-31 11:38:39 UTC</createdTime>
-<ownerDesignName>MVP Version</ownerDesignName>
-<engineerTo>
-<item key="B3F40409-EA59-7AB3-7C6F-7CEBAFB48627" value="true"/>
-</engineerTo>
+<createdTime>2025-06-08 19:07:05 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
