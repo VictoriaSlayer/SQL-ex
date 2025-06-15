@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D4CAA98-01C3-2F89-0AED-1445D8818667" name="READER_TYPE">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 18:11:10 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="0BC1BA77-8A62-62D1-CBB1-ABB321B7412C">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 18:12:05 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TYPE_NAME" id="81C91D6C-7830-4AEF-0369-698C1C1E79AF">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 18:12:05 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AGE_MIN" id="2266DA94-CAB4-554A-F262-AD6FC3BFBEE9">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 18:13:55 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AGE_MAX" id="D8B7B351-1A16-2D8F-95F4-E9C0DC80307A">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 18:13:55 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87FA9070-2CD6-AE6A-0054-26658F0C4784" name="READER_TYPE_PK">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 18:12:05 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BC1BA77-8A62-62D1-CBB1-ABB321B7412C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

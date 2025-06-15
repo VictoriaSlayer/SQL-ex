@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E3D5B133-8B93-500D-B8A9-238CE37F06E5" containerWithKeyObject="93F9D3FE-10C2-83D1-2BE8-4D1EAE374D91" localFKIndex="3BCCE412-2CB6-6058-E2CF-D440E1D782F9" name="PUBLISH_GROUP_ROLE_FK">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 18:24:25 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<referredTableLongName>PUBLISH_GROUP_ROLE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D1EF3504-4EAE-3E50-BCAE-6615AE3EAD59</referredTableID>
+<keyObject>76DA891B-7E9D-0518-D2C1-DBBA1758214B</keyObject>
+<referredKeyID>76DA891B-7E9D-0518-D2C1-DBBA1758214B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

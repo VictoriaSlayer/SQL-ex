@@ -1,17 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8064C417-A44E-F1EA-0CF3-E94ACDBBB27B" name="GENRE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1EF3504-4EAE-3E50-BCAE-6615AE3EAD59" name="PUBLISH_GROUP_ROLE">
 <createdBy>Saint</createdBy>
-<createdTime>2025-06-15 09:42:30 UTC</createdTime>
-<generatorID>FD970466-248C-0063-1059-1111C88AD90E</generatorID>
+<createdTime>2025-06-15 18:22:15 UTC</createdTime>
 <ownerDesignName>MVP database</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="33E74183-92F2-EDAE-0819-2929C03333B9">
+<Column name="ID" id="485DED38-B8D8-BD12-6D7A-65832C41F712">
 <createdBy>Saint</createdBy>
-<createdTime>2025-06-15 09:42:30 UTC</createdTime>
-<generatorID>B0F64BCC-E9F4-3B6B-1C3F-BA01D8575018</generatorID>
+<createdTime>2025-06-15 18:23:39 UTC</createdTime>
 <ownerDesignName>MVP database</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,30 +18,28 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="GENRE_NAME" id="BA17FA13-4034-798C-98CB-AC056D711B3F">
+<Column name="ROLE_NAME" id="34F4D459-FA05-DD53-B79C-2F7BBB2B4F1D">
 <createdBy>Saint</createdBy>
-<createdTime>2025-06-15 09:42:30 UTC</createdTime>
-<generatorID>91C72243-0B58-06F2-05A9-3214A43B6DD7</generatorID>
+<createdTime>2025-06-15 18:23:39 UTC</createdTime>
 <ownerDesignName>MVP database</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="237AA8A1-BCF8-C578-0684-06B96A04FE43" name="GENRE_PK">
+<ind_PK_UK id="76DA891B-7E9D-0518-D2C1-DBBA1758214B" name="PUBLISH_GROUP_ROLE_PK">
 <createdBy>Saint</createdBy>
-<createdTime>2025-06-15 09:42:30 UTC</createdTime>
-<generatorID>DCB89527-CCB5-8974-E324-5ABCD4EBF232</generatorID>
+<createdTime>2025-06-15 18:23:39 UTC</createdTime>
 <ownerDesignName>MVP database</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="33E74183-92F2-EDAE-0819-2929C03333B9"/>
+<colUsage columnID="485DED38-B8D8-BD12-6D7A-65832C41F712"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

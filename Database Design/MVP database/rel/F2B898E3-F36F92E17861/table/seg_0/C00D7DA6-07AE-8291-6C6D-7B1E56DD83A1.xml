@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C00D7DA6-07AE-8291-6C6D-7B1E56DD83A1" name="PUBLISH_HOUSE">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 16:35:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Справочник издательств]]></commentInRDBMS>
+<ownerDesignName>MVP database</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="3D1F1E68-E2CF-10FC-5AA2-91455B0FD4C0">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 16:42:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[ИД записи]]></commentInRDBMS>
+<ownerDesignName>MVP database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PUBLISH_HOUSE_NAME_SHORT" id="289AFA63-37C4-30AC-72B1-1C321AC1D73D">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 16:42:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Краткое наименование издательства]]></commentInRDBMS>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PUBLISH_HOUSE_NAME_LONG" id="74928148-95ED-1027-9DB6-EEE53FCD0862">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 16:42:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[Полное наименование издательства]]></commentInRDBMS>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDRESS" id="066BE0CD-D326-459F-85B2-CFCD7489E958">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 16:42:08 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DBC5EBA3-B8BE-CC79-5985-02EEDCBAD026" name="PUBLISH_HOUSE_PK">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 16:42:08 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D1F1E68-E2CF-10FC-5AA2-91455B0FD4C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

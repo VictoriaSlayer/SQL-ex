@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EDDB5569-7AA0-9678-5EEA-923757176128" name="BOOK_FORMAT">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 16:52:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Справочник форматов книги]]></commentInRDBMS>
+<ownerDesignName>MVP database</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="34417A0D-F415-BFAC-4710-C57866C194B2">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 16:53:22 UTC</createdTime>
+<generatorID>DC2D0A52-5236-B0FC-3110-A271C6C28DD7</generatorID>
+<ownerDesignName>MVP database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Книга_ID</notNullConstraintName>
+</Column>
+<Column name="BOOK_FORMAT_GROUP_ID" id="54D06970-E0CF-4C86-0AB9-1D6C57CF54F4">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 17:01:21 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="817B2D27-7094-EB74-DF22-39ACBA6963CD" referredColumn="FA30CD3D-E11B-09E0-9094-A6820501A845"/>
+</associations>
+</Column>
+<Column name="SHEET_LENGTH" id="5847BE67-D1CC-E226-AB3E-CAAB7A6377C3">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 17:04:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Длина листа]]></commentInRDBMS>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHEET_WIDTH" id="F0C11135-9F32-9DEB-D47A-1142E5D09038">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 17:04:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ширина листа]]></commentInRDBMS>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FRACTION_SHEET" id="89AF9FF8-6E3D-ED85-5224-AF29CB5DC5CD">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 17:04:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Доля листа]]></commentInRDBMS>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC34C7BD-0C78-DABB-8846-DA307B797B11" name="BOOK_FORMAT_PK">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 16:58:57 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34417A0D-F415-BFAC-4710-C57866C194B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B665DD56-04F5-42E4-EA09-EBA0F0226E17" name="BOOK_FORMAT_GROUP_FK">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 17:01:21 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54D06970-E0CF-4C86-0AB9-1D6C57CF54F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

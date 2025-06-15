@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FFA459E1-E464-7B58-A787-49E1D1297B8A" name="BOOK_GENRE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E09D335-3E3B-3E1C-F850-58566AB608AF" name="BOOK_PRINT_TYPE">
 <createdBy>Saint</createdBy>
-<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<createdTime>2025-06-15 17:41:04 UTC</createdTime>
 <ownerDesignName>MVP database</ownerDesignName>
-<ordsAlias>relation_2</ordsAlias>
+<ordsAlias>table_11</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="7F8B779B-35FE-C40A-B228-23D527F80A7F">
+<Column name="ID" id="285E9C0F-B4F1-A1F8-25D1-839DEBE5739F">
 <createdBy>Saint</createdBy>
-<createdTime>2025-06-15 17:57:40 UTC</createdTime>
+<createdTime>2025-06-15 17:41:43 UTC</createdTime>
 <ownerDesignName>MVP database</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,23 +18,22 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="BOOK_ID" id="59DD3B97-844B-AAF1-E005-331E7B3E69F6">
+<Column name="PRINT_TYPE_ID" id="CB2F2622-3CC4-7AD2-842D-633F850AB012">
 <createdBy>Saint</createdBy>
-<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<createdTime>2025-06-15 17:43:48 UTC</createdTime>
 <ownerDesignName>MVP database</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="35E949B7-EDAD-C0C5-40FC-032E462ABEAB" referredColumn="EE750CA9-FA7B-13E6-9577-AFDED80B84F5"/>
+<colAssociation fkAssociation="75ACF0C4-BA0C-06FD-A3DF-5612636E08B6" referredColumn="BFF8EDC7-55CF-0457-3294-BAF60B8FE25D"/>
 </associations>
 </Column>
-<Column name="GENRE_ID" id="55B384C8-B8B7-FD8E-489D-D350A4F4F94C">
+<Column name="Book_ID" id="C8D6873B-D695-F342-52D4-43B22A4DF3E7">
 <createdBy>Saint</createdBy>
-<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<createdTime>2025-06-15 17:45:35 UTC</createdTime>
 <ownerDesignName>MVP database</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -43,44 +42,52 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="3E740D72-3631-2CE6-B937-37306994DEF5" referredColumn="33E74183-92F2-EDAE-0819-2929C03333B9"/>
+<colAssociation fkAssociation="1C805FCC-4F3E-EA0F-DBD0-F1E00CA8A105" referredColumn="EE750CA9-FA7B-13E6-9577-AFDED80B84F5"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="B5BBB222-9D6B-3C35-F927-4955A1AE52A0" name="BOOK_GENRE_PK">
+<ind_PK_UK id="0787EF75-42D6-0999-A06E-107E9A733EE7" name="BOOK_PRINT_TYPE_PK">
 <createdBy>Saint</createdBy>
-<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<createdTime>2025-06-15 17:41:43 UTC</createdTime>
 <ownerDesignName>MVP database</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="59DD3B97-844B-AAF1-E005-331E7B3E69F6"/>
-<colUsage columnID="55B384C8-B8B7-FD8E-489D-D350A4F4F94C"/>
-<colUsage columnID="7F8B779B-35FE-C40A-B228-23D527F80A7F"/>
+<colUsage columnID="285E9C0F-B4F1-A1F8-25D1-839DEBE5739F"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4F44DA4E-5EA1-909E-8044-9A911EE3A462" name="GENRE_BOOK_GENRE_FK">
+<ind_PK_UK id="2FC45586-A88B-7439-91A7-1C4F0A17004A" name="BOOK_PRINT_TYPE__UNv1">
 <createdBy>Saint</createdBy>
-<createdTime>2025-06-15 09:42:30 UTC</createdTime>
-<generatorID>557B480D-5EDD-F064-2A54-870A32B3A2E4</generatorID>
+<createdTime>2025-06-15 17:50:20 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB2F2622-3CC4-7AD2-842D-633F850AB012"/>
+<colUsage columnID="C8D6873B-D695-F342-52D4-43B22A4DF3E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF709AEE-2D6B-D163-99C6-6FC919FB13F7" name="PRINT_TYPE_BOOK_FK">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 17:45:35 UTC</createdTime>
+<generatorID>E1159918-802B-B0B9-512D-A709A08EA873</generatorID>
 <ownerDesignName>MVP database</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="59DD3B97-844B-AAF1-E005-331E7B3E69F6"/>
+<colUsage columnID="C8D6873B-D695-F342-52D4-43B22A4DF3E7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8D6CF9BC-DE6B-69FE-3FF5-D366E7F9E093" name="GENRE_BOOK_GENRE_FKv1">
+<ind_PK_UK id="CE1FB081-5590-6B91-5F24-0986BD26CF03" name="BOOK_PRINT_TYPE_FKv1">
 <createdBy>Saint</createdBy>
-<createdTime>2025-06-15 09:42:30 UTC</createdTime>
-<generatorID>557B480D-5EDD-F064-2A54-870A32B3A2E4</generatorID>
+<createdTime>2025-06-15 17:48:02 UTC</createdTime>
 <ownerDesignName>MVP database</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="55B384C8-B8B7-FD8E-489D-D350A4F4F94C"/>
+<colUsage columnID="CB2F2622-3CC4-7AD2-842D-633F850AB012"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

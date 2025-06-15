@@ -32,7 +32,7 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <notNullConstraintName>NNC_Книга_ISBN</notNullConstraintName>
 </Column>
-<Column name="Название" id="E23F2DA8-F3F7-D808-FF7B-2B06666C72FF">
+<Column name="BOOK_NAME" id="E23F2DA8-F3F7-D808-FF7B-2B06666C72FF">
 <createdBy>Saint</createdBy>
 <createdTime>2025-06-15 09:42:30 UTC</createdTime>
 <generatorID>33127182-C485-31F1-9234-8CA30B3DF5E1</generatorID>
@@ -44,7 +44,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="УДК" id="66AFB6F3-49AB-C36B-1D52-A65F16296515">
+<Column name="UDK" id="66AFB6F3-49AB-C36B-1D52-A65F16296515">
 <createdBy>Saint</createdBy>
 <createdTime>2025-06-15 09:42:30 UTC</createdTime>
 <generatorID>BC4E4F77-691F-3DBD-C4B3-46A9719FC765</generatorID>
@@ -53,11 +53,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>4000</dataTypeSize>
-<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ББК" id="5EF85854-095E-69CF-928B-58780EE6E84F">
+<Column name="BBK" id="5EF85854-095E-69CF-928B-58780EE6E84F">
 <createdBy>Saint</createdBy>
 <createdTime>2025-06-15 09:42:30 UTC</createdTime>
 <generatorID>3B5EA46F-9171-7DB9-F35D-5ADB3B1AC423</generatorID>
@@ -66,10 +66,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Год_издания" id="476A4D7D-E8B5-C1AB-D5A9-8E2F2143F20C">
+<Column name="PUBLISH_YEAR" id="476A4D7D-E8B5-C1AB-D5A9-8E2F2143F20C">
 <createdBy>Saint</createdBy>
 <createdTime>2025-06-15 09:42:30 UTC</createdTime>
 <generatorID>9DAA4054-8D04-C2B9-1BD4-60CFFB1ED8D0</generatorID>
@@ -81,7 +82,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Количество_страниц" id="8909B416-72EF-C0F5-A35E-F193F6EC64DA">
+<Column name="PAGE_COUNT" id="8909B416-72EF-C0F5-A35E-F193F6EC64DA">
 <createdBy>Saint</createdBy>
 <createdTime>2025-06-15 09:42:30 UTC</createdTime>
 <generatorID>046CA704-9EFC-B8A1-B31B-3A0E558A42F4</generatorID>
@@ -93,33 +94,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Издательство" id="DC918BA7-1C4A-1B4E-24A3-296CD29D9D90">
+<Column name="CIRCULATION" id="5BC76967-2D58-8067-E5E5-294C9ACADF1B">
 <createdBy>Saint</createdBy>
 <createdTime>2025-06-15 09:42:30 UTC</createdTime>
-<generatorID>1E5B2445-5638-897D-A1DD-011FE49818EB</generatorID>
-<ownerDesignName>MVP database</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Формат" id="ED686E91-A6EA-3A27-0BB9-4DF54F672A83">
-<createdBy>Saint</createdBy>
-<createdTime>2025-06-15 09:42:30 UTC</createdTime>
-<generatorID>33367145-ED42-06C4-9417-60A1185D1DDD</generatorID>
-<ownerDesignName>MVP database</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Тираж" id="5BC76967-2D58-8067-E5E5-294C9ACADF1B">
-<createdBy>Saint</createdBy>
-<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[Тираж]]></commentInRDBMS>
 <generatorID>D0F2E78B-DB52-801E-228E-049B04CCFDF2</generatorID>
 <ownerDesignName>MVP database</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
@@ -129,21 +107,63 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Печать" id="4DF7AFF3-AF38-9B26-569C-8B5F282164D0">
+<Column name="PUBLISH_HOUSE_ID" id="86E663B9-468F-757E-A71C-2559D41B9EB7">
 <createdBy>Saint</createdBy>
-<createdTime>2025-06-15 09:42:30 UTC</createdTime>
-<generatorID>1B9A59FE-EB67-DC8C-D777-4CB9437914B5</generatorID>
+<createdTime>2025-06-15 16:42:48 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3602AEE-B19F-6CDE-8BC2-AC142EC49597" referredColumn="3D1F1E68-E2CF-10FC-5AA2-91455B0FD4C0"/>
+</associations>
+</Column>
+<Column name="BOOK_FORMAT_ID" id="1AD28514-C478-1E7B-CDD3-DFC00AE6D956">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 16:59:31 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D641E07F-4834-B3F7-F815-C3EF25C6E6B2" referredColumn="34417A0D-F415-BFAC-4710-C57866C194B2"/>
+</associations>
+</Column>
+<Column name="ANNOTATION" id="3588DEF2-8B3C-7A13-623B-4430BF9C802B">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 18:08:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Аннотация]]></commentInRDBMS>
 <ownerDesignName>MVP database</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<logicalDatatype>LOGDT028</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="READER_TYPE_ID" id="68155D85-A426-B3CF-9C7B-55C074121478">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 18:15:24 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE116212-D6EA-D5B2-CDE0-8C76E883CD4C" referredColumn="0BC1BA77-8A62-62D1-CBB1-ABB321B7412C"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3090D131-EAFB-24AA-E967-46588F973E3E" name="Книга_PK">
+<ind_PK_UK id="3090D131-EAFB-24AA-E967-46588F973E3E" name="BOOK_PK">
 <createdBy>Saint</createdBy>
 <createdTime>2025-06-15 09:42:30 UTC</createdTime>
 <generatorID>E1159918-802B-B0B9-512D-A709A08EA873</generatorID>
@@ -153,6 +173,36 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="EE750CA9-FA7B-13E6-9577-AFDED80B84F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB7A3462-83EE-ED28-452B-7E0BF5FF9F45" name="PUBLISH_HOUSE_BOOK_FK">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 16:42:48 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86E663B9-468F-757E-A71C-2559D41B9EB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9BFC2B3-3720-769D-FD09-D104DF2AD9F7" name="BOOK_FORMAT_BOOK_FK">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 16:59:31 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AD28514-C478-1E7B-CDD3-DFC00AE6D956"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD52C6CD-350C-56C3-DE45-846EB004DD3A" name="Book_READER_TYPE_FK">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 18:15:24 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68155D85-A426-B3CF-9C7B-55C074121478"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

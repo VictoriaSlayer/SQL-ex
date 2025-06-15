@@ -1,8 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="35E949B7-EDAD-C0C5-40FC-032E462ABEAB" containerWithKeyObject="FFA459E1-E464-7B58-A787-49E1D1297B8A" localFKIndex="4F44DA4E-5EA1-909E-8044-9A911EE3A462" name="GENRE_BOOK_GENRE_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FA856FC3-2B16-7B9C-4535-0BD7D870759C" containerWithKeyObject="93F9D3FE-10C2-83D1-2BE8-4D1EAE374D91" localFKIndex="DDB9E166-094F-EB80-B412-4ECB70BA5ECD" name="PUBLISH_GROUP_Book_FK">
 <createdBy>Saint</createdBy>
-<createdTime>2025-06-15 09:42:30 UTC</createdTime>
-<generatorID>557B480D-5EDD-F064-2A54-870A32B3A2E4</generatorID>
+<createdTime>2025-06-15 18:20:56 UTC</createdTime>
+<generatorID>E1159918-802B-B0B9-512D-A709A08EA873</generatorID>
 <ownerDesignName>MVP database</ownerDesignName>
 <referredTableLongName>Book</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

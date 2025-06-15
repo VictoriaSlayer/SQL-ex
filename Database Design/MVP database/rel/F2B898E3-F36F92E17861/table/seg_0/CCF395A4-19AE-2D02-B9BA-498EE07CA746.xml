@@ -8,7 +8,7 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ИД" id="B3AF5AB7-EA5D-22D3-1E55-193B909C95B9">
+<Column name="ID" id="B3AF5AB7-EA5D-22D3-1E55-193B909C95B9">
 <createdBy>Saint</createdBy>
 <createdTime>2025-06-15 09:42:30 UTC</createdTime>
 <generatorID>2527433C-90C2-49B8-A5FB-22ABAAA950C8</generatorID>
@@ -19,7 +19,7 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Фамилия" id="655A1920-879B-BC4C-EC8E-B1E0BBA9D032">
+<Column name="LAST_NAME" id="655A1920-879B-BC4C-EC8E-B1E0BBA9D032">
 <createdBy>Saint</createdBy>
 <createdTime>2025-06-15 09:42:30 UTC</createdTime>
 <generatorID>13BB617C-1F23-8E8E-1ED7-B9311941CE5A</generatorID>
@@ -28,10 +28,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Имя" id="68207CEE-DCF0-CD31-1055-9BE26C2782EA">
+<Column name="FIRST_NAME" id="68207CEE-DCF0-CD31-1055-9BE26C2782EA">
 <createdBy>Saint</createdBy>
 <createdTime>2025-06-15 09:42:30 UTC</createdTime>
 <generatorID>572B2DF7-6312-7AD6-1DAB-D5C2468E65EA</generatorID>
@@ -40,10 +41,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Отчетство" id="6E86D073-48B6-1A82-60B6-20FFBF6E550F">
+<Column name="MIDDLE_NAME" id="6E86D073-48B6-1A82-60B6-20FFBF6E550F">
 <createdBy>Saint</createdBy>
 <createdTime>2025-06-15 09:42:30 UTC</createdTime>
 <generatorID>CF145E75-29E5-7F76-AA3D-63D3AE510622</generatorID>
@@ -52,10 +54,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Дата_рождения" id="22C02997-68C0-E5C5-EB3A-CD8A3A74875B">
+<Column name="BIRTHDAY" id="22C02997-68C0-E5C5-EB3A-CD8A3A74875B">
 <createdBy>Saint</createdBy>
 <createdTime>2025-06-15 09:42:30 UTC</createdTime>
 <generatorID>98AFE36D-7509-4C91-DB66-E1CCAEB9B4C9</generatorID>
