@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="244CF2E8-5A75-608B-58F6-B6AD1C3D1187" name="Book">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<generatorID>072BF16C-9F3E-A20A-86A8-E13F7D078089</generatorID>
+<ownerDesignName>MVP database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="EE750CA9-FA7B-13E6-9577-AFDED80B84F5">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<generatorID>DC2D0A52-5236-B0FC-3110-A271C6C28DD7</generatorID>
+<ownerDesignName>MVP database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Книга_ID</notNullConstraintName>
+</Column>
+<Column name="ISBN" id="7EB5C1C2-9CED-8072-96E6-E47FA0FA4597">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<generatorID>2DB7DFA2-38F6-F81C-A062-D1B72E88B641</generatorID>
+<ownerDesignName>MVP database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_Книга_ISBN</notNullConstraintName>
+</Column>
+<Column name="Название" id="E23F2DA8-F3F7-D808-FF7B-2B06666C72FF">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<generatorID>33127182-C485-31F1-9234-8CA30B3DF5E1</generatorID>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="УДК" id="66AFB6F3-49AB-C36B-1D52-A65F16296515">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<generatorID>BC4E4F77-691F-3DBD-C4B3-46A9719FC765</generatorID>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ББК" id="5EF85854-095E-69CF-928B-58780EE6E84F">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<generatorID>3B5EA46F-9171-7DB9-F35D-5ADB3B1AC423</generatorID>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Год_издания" id="476A4D7D-E8B5-C1AB-D5A9-8E2F2143F20C">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<generatorID>9DAA4054-8D04-C2B9-1BD4-60CFFB1ED8D0</generatorID>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Количество_страниц" id="8909B416-72EF-C0F5-A35E-F193F6EC64DA">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<generatorID>046CA704-9EFC-B8A1-B31B-3A0E558A42F4</generatorID>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Издательство" id="DC918BA7-1C4A-1B4E-24A3-296CD29D9D90">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<generatorID>1E5B2445-5638-897D-A1DD-011FE49818EB</generatorID>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Формат" id="ED686E91-A6EA-3A27-0BB9-4DF54F672A83">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<generatorID>33367145-ED42-06C4-9417-60A1185D1DDD</generatorID>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Тираж" id="5BC76967-2D58-8067-E5E5-294C9ACADF1B">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<generatorID>D0F2E78B-DB52-801E-228E-049B04CCFDF2</generatorID>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Печать" id="4DF7AFF3-AF38-9B26-569C-8B5F282164D0">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<generatorID>1B9A59FE-EB67-DC8C-D777-4CB9437914B5</generatorID>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3090D131-EAFB-24AA-E967-46588F973E3E" name="Книга_PK">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<generatorID>E1159918-802B-B0B9-512D-A709A08EA873</generatorID>
+<ownerDesignName>MVP database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE750CA9-FA7B-13E6-9577-AFDED80B84F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

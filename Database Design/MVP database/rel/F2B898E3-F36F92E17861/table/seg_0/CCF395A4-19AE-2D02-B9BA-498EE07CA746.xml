@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCF395A4-19AE-2D02-B9BA-498EE07CA746" name="Author">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<generatorID>44CB3873-7E46-A57B-16BA-F53F52F8858A</generatorID>
+<ownerDesignName>MVP database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ИД" id="B3AF5AB7-EA5D-22D3-1E55-193B909C95B9">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<generatorID>2527433C-90C2-49B8-A5FB-22ABAAA950C8</generatorID>
+<ownerDesignName>MVP database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Фамилия" id="655A1920-879B-BC4C-EC8E-B1E0BBA9D032">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<generatorID>13BB617C-1F23-8E8E-1ED7-B9311941CE5A</generatorID>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Имя" id="68207CEE-DCF0-CD31-1055-9BE26C2782EA">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<generatorID>572B2DF7-6312-7AD6-1DAB-D5C2468E65EA</generatorID>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Отчетство" id="6E86D073-48B6-1A82-60B6-20FFBF6E550F">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<generatorID>CF145E75-29E5-7F76-AA3D-63D3AE510622</generatorID>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Дата_рождения" id="22C02997-68C0-E5C5-EB3A-CD8A3A74875B">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<generatorID>98AFE36D-7509-4C91-DB66-E1CCAEB9B4C9</generatorID>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C08140C-B92D-12AE-5F89-721F747BA762" name="Автор_PK">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<generatorID>1AADA8A7-A1F4-640A-2488-636166B182FB</generatorID>
+<ownerDesignName>MVP database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3AF5AB7-EA5D-22D3-1E55-193B909C95B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

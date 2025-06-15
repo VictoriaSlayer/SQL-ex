@@ -3,6 +3,9 @@
 <createdBy>Saint</createdBy>
 <createdTime>2025-06-08 19:09:26 UTC</createdTime>
 <ownerDesignName>MVP database</ownerDesignName>
+<engineerTo>
+<item key="F2B898E3-2967-BD15-BAE0-F36F92E17861" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -16,6 +19,9 @@
 <createdBy>Saint</createdBy>
 <createdTime>2025-06-15 09:15:33 UTC</createdTime>
 <ownerDesignName>MVP database</ownerDesignName>
+<engineerTo>
+<item key="F2B898E3-2967-BD15-BAE0-F36F92E17861" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -25,6 +31,9 @@
 <createdBy>Saint</createdBy>
 <createdTime>2025-06-15 09:15:41 UTC</createdTime>
 <ownerDesignName>MVP database</ownerDesignName>
+<engineerTo>
+<item key="F2B898E3-2967-BD15-BAE0-F36F92E17861" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -37,6 +46,9 @@
 <createdBy>Saint</createdBy>
 <createdTime>2025-06-15 09:15:38 UTC</createdTime>
 <ownerDesignName>MVP database</ownerDesignName>
+<engineerTo>
+<item key="F2B898E3-2967-BD15-BAE0-F36F92E17861" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>B0F64BCC-E9F4-3B6B-1C3F-BA01D8575018</attributeRef>

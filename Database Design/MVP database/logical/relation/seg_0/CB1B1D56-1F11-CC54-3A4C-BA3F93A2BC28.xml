@@ -3,10 +3,13 @@
 <createdBy>Saint</createdBy>
 <createdTime>2025-06-15 09:22:06 UTC</createdTime>
 <ownerDesignName>MVP database</ownerDesignName>
+<engineerTo>
+<item key="F2B898E3-2967-BD15-BAE0-F36F92E17861" value="true"/>
+</engineerTo>
 <sourcePk>1AADA8A7-A1F4-640A-2488-636166B182FB</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
-<optionalTarget>false</optionalTarget>
+<optionalTarget>true</optionalTarget>
 <sourceCardinality>*</sourceCardinality>
 <sourceEntity>44CB3873-7E46-A57B-16BA-F53F52F8858A</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>

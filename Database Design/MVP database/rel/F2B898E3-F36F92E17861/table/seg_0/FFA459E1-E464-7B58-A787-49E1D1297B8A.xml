@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FFA459E1-E464-7B58-A787-49E1D1297B8A" name="Relation_2">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Книга_ID" id="59DD3B97-844B-AAF1-E005-331E7B3E69F6">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="35E949B7-EDAD-C0C5-40FC-032E462ABEAB" referredColumn="EE750CA9-FA7B-13E6-9577-AFDED80B84F5"/>
+</associations>
+</Column>
+<Column name="Жанр_Ид" id="55B384C8-B8B7-FD8E-489D-D350A4F4F94C">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E740D72-3631-2CE6-B937-37306994DEF5" referredColumn="33E74183-92F2-EDAE-0819-2929C03333B9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B5BBB222-9D6B-3C35-F927-4955A1AE52A0" name="Relation_2_PK">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59DD3B97-844B-AAF1-E005-331E7B3E69F6"/>
+<colUsage columnID="55B384C8-B8B7-FD8E-489D-D350A4F4F94C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F44DA4E-5EA1-909E-8044-9A911EE3A462" name="Relation_2_Книга_FK">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<generatorID>557B480D-5EDD-F064-2A54-870A32B3A2E4</generatorID>
+<ownerDesignName>MVP database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59DD3B97-844B-AAF1-E005-331E7B3E69F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D6CF9BC-DE6B-69FE-3FF5-D366E7F9E093" name="Relation_2_Жанр_FK">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:42:30 UTC</createdTime>
+<generatorID>557B480D-5EDD-F064-2A54-870A32B3A2E4</generatorID>
+<ownerDesignName>MVP database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55B384C8-B8B7-FD8E-489D-D350A4F4F94C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
