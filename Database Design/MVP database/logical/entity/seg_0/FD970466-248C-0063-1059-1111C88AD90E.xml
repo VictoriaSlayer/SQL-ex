@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD970466-248C-0063-1059-1111C88AD90E" name="Entity_4">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FD970466-248C-0063-1059-1111C88AD90E" name="Жанр">
 <createdBy>Saint</createdBy>
 <createdTime>2025-06-08 19:09:26 UTC</createdTime>
 <ownerDesignName>MVP database</ownerDesignName>
@@ -11,4 +11,36 @@
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Ид" id="B0F64BCC-E9F4-3B6B-1C3F-BA01D8575018">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:15:33 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Наименовапние" id="91C72243-0B58-06F2-05A9-3214A43B6DD7">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:15:41 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DCB89527-CCB5-8974-E324-5ABCD4EBF232" name="Жанр PK">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 09:15:38 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B0F64BCC-E9F4-3B6B-1C3F-BA01D8575018</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

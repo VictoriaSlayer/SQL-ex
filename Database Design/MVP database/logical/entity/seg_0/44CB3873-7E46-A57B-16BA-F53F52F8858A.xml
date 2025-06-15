@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="44CB3873-7E46-A57B-16BA-F53F52F8858A" name="Entity_1">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="44CB3873-7E46-A57B-16BA-F53F52F8858A" name="Автор">
 <createdBy>Saint</createdBy>
 <createdTime>2025-06-08 19:06:31 UTC</createdTime>
 <ownerDesignName>MVP database</ownerDesignName>
@@ -12,7 +12,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Attribute_1" id="2527433C-90C2-49B8-A5FB-22ABAAA950C8">
+<Attribute name="ИД" id="2527433C-90C2-49B8-A5FB-22ABAAA950C8">
 <createdBy>Saint</createdBy>
 <createdTime>2025-06-08 19:06:35 UTC</createdTime>
 <ownerDesignName>MVP database</ownerDesignName>
@@ -21,31 +21,54 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Attribute_2" id="13BB617C-1F23-8E8E-1ED7-B9311941CE5A">
+<Attribute name="Фамилия" id="13BB617C-1F23-8E8E-1ED7-B9311941CE5A">
 <createdBy>Saint</createdBy>
 <createdTime>2025-06-08 19:06:38 UTC</createdTime>
 <ownerDesignName>MVP database</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT027</logicalDatatype>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Attribute_3" id="572B2DF7-6312-7AD6-1DAB-D5C2468E65EA">
+<Attribute name="Имя" id="572B2DF7-6312-7AD6-1DAB-D5C2468E65EA">
 <createdBy>Saint</createdBy>
 <createdTime>2025-06-08 19:06:45 UTC</createdTime>
 <ownerDesignName>MVP database</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Отчетство" id="CF145E75-29E5-7F76-AA3D-63D3AE510622">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 08:53:11 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Дата рождения" id="98AFE36D-7509-4C91-DB66-E1CCAEB9B4C9">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-15 08:53:19 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="1AADA8A7-A1F4-640A-2488-636166B182FB" name="Entity_1 PK">
+<identifier id="1AADA8A7-A1F4-640A-2488-636166B182FB" name="Автор">
 <createdBy>Saint</createdBy>
 <createdTime>2025-06-08 19:06:58 UTC</createdTime>
 <ownerDesignName>MVP database</ownerDesignName>
 <pk>true</pk>
+<newElementsIDs>2527433C-90C2-49B8-A5FB-22ABAAA950C8</newElementsIDs>
 <usedAttributes>
 <attributeRef>2527433C-90C2-49B8-A5FB-22ABAAA950C8</attributeRef>
 </usedAttributes>
