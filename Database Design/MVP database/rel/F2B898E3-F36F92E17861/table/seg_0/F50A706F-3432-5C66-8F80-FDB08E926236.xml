@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F50A706F-3432-5C66-8F80-FDB08E926236" name="BOOK_BOOK_GROUP">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-18 06:27:53 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="43EF8D99-A049-DC9D-DDFC-86B9867725F5">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-18 06:28:29 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Book_ID" id="DEA09765-5685-8521-13F9-DF3571913DAB">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-18 06:28:36 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2BD123A-F625-0244-82FA-EE567F985322" referredColumn="EE750CA9-FA7B-13E6-9577-AFDED80B84F5"/>
+</associations>
+</Column>
+<Column name="BOOK_GROUP_TYPE_ID" id="5BEC9F15-999F-FCAC-94A0-7EE56F7C1622">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-18 06:29:41 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8313655A-C64B-413C-2F5C-906AA9BA31FB" referredColumn="7B0A31E0-7A06-BF6A-79A4-82A005E44D63"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="704E73F9-AD16-87D0-813C-CC13ECBA0FBC" name="BOOK_BOOK_GROUP_PK">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-18 06:28:29 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43EF8D99-A049-DC9D-DDFC-86B9867725F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86BB27D8-D59E-DAEE-5C18-D3F6F6B2FB7B" name="BOOK_BOOK_GROUP__UN">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-18 06:32:05 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEA09765-5685-8521-13F9-DF3571913DAB"/>
+<colUsage columnID="5BEC9F15-999F-FCAC-94A0-7EE56F7C1622"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F12FDBB-6382-39C1-7127-9952D5A8718A" name="BOOK_BOOK_BOOK_GROUP_FK">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-18 06:28:36 UTC</createdTime>
+<generatorID>E1159918-802B-B0B9-512D-A709A08EA873</generatorID>
+<ownerDesignName>MVP database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DEA09765-5685-8521-13F9-DF3571913DAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CFF097E-386B-621F-BC7F-187FC37BF9BB" name="BOOK__GROUP_TYPE_BOOK_GROUP_FK">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-18 06:29:41 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BEC9F15-999F-FCAC-94A0-7EE56F7C1622"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

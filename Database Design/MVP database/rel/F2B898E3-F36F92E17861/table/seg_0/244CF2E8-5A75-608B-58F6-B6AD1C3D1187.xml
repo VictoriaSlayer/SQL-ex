@@ -161,6 +161,69 @@
 <colAssociation fkAssociation="FE116212-D6EA-D5B2-CDE0-8C76E883CD4C" referredColumn="0BC1BA77-8A62-62D1-CBB1-ABB321B7412C"/>
 </associations>
 </Column>
+<Column name="Pictures" id="EF978497-7331-528B-F823-81C7A1F452E0">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-18 05:35:47 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Signed" id="7D22EFB0-3D5C-2EF4-44CA-6A78452C2C33">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-18 05:38:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Подписано в печать]]></commentInRDBMS>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SHEETES" id="9F12D677-F430-D090-97AD-C517503AA8BA">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-18 05:40:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Количество листов]]></commentInRDBMS>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDER_NUM" id="C4695236-733C-98F7-F065-FF89C41C2ABE">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-18 05:43:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Номер заказа]]></commentInRDBMS>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COVER_TYPE_ID" id="F84B3E99-E59F-140E-4FD9-B033BDA9A97D">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-18 05:59:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[Идентификатор типа обложки]]></commentInRDBMS>
+<ownerDesignName>MVP database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25948B46-584F-7E5C-724B-FEBE3DB6549B" referredColumn="E5AD3FF4-3222-7F71-4170-40E9EB8CBE2C"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="3090D131-EAFB-24AA-E967-46588F973E3E" name="BOOK_PK">
@@ -203,6 +266,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="68155D85-A426-B3CF-9C7B-55C074121478"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9E72CD0-708B-E640-6D92-FA66A4620772" name="COVER_TYPE_BOOK_FK">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-18 05:59:46 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F84B3E99-E59F-140E-4FD9-B033BDA9A97D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
