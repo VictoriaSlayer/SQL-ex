@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C00D7DA6-07AE-8291-6C6D-7B1E56DD83A1" name="PUBLISH_HOUSE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C00D7DA6-07AE-8291-6C6D-7B1E56DD83A1" name="PUBLISH_ORG">
 <createdBy>Saint</createdBy>
 <createdTime>2025-06-15 16:35:18 UTC</createdTime>
 <commentInRDBMS><![CDATA[Справочник издательств]]></commentInRDBMS>
@@ -56,6 +56,42 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>1000</dataTypeSize>
 <ownDataTypeParameters>1000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="F1F65EB9-7BF8-0A17-9B41-6BB5CBD53A70">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-21 17:45:40 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone" id="6E3E7341-AB9D-6863-0AF7-1CDD246AA188">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-21 17:45:40 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="URL" id="1C6D68CA-6823-D362-817A-63E8AD0E1084">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-21 17:46:35 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

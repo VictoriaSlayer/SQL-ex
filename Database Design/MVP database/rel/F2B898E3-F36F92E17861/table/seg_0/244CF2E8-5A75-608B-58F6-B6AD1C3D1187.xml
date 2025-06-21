@@ -107,20 +107,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PUBLISH_HOUSE_ID" id="86E663B9-468F-757E-A71C-2559D41B9EB7">
-<createdBy>Saint</createdBy>
-<createdTime>2025-06-15 16:42:48 UTC</createdTime>
-<ownerDesignName>MVP database</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="B3602AEE-B19F-6CDE-8BC2-AC142EC49597" referredColumn="3D1F1E68-E2CF-10FC-5AA2-91455B0FD4C0"/>
-</associations>
-</Column>
 <Column name="BOOK_FORMAT_ID" id="1AD28514-C478-1E7B-CDD3-DFC00AE6D956">
 <createdBy>Saint</createdBy>
 <createdTime>2025-06-15 16:59:31 UTC</createdTime>
@@ -224,6 +210,32 @@
 <colAssociation fkAssociation="25948B46-584F-7E5C-724B-FEBE3DB6549B" referredColumn="E5AD3FF4-3222-7F71-4170-40E9EB8CBE2C"/>
 </associations>
 </Column>
+<Column name="BOOK_TYPE_id" id="E6469E36-B5C2-0C9F-FC51-77D3D06A6BAF">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-21 17:33:58 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0568B86F-7373-6733-B7FC-CC11312AA52A" referredColumn="51FA5C36-2D6A-A41B-DDF1-5644289DD774"/>
+</associations>
+</Column>
+<Column name="Comments" id="299F4074-5BDA-C938-BA49-52AC270BA881">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-21 17:51:38 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4000</dataTypeSize>
+<ownDataTypeParameters>4000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="3090D131-EAFB-24AA-E967-46588F973E3E" name="BOOK_PK">
@@ -236,16 +248,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="EE750CA9-FA7B-13E6-9577-AFDED80B84F5"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="EB7A3462-83EE-ED28-452B-7E0BF5FF9F45" name="PUBLISH_HOUSE_BOOK_FK">
-<createdBy>Saint</createdBy>
-<createdTime>2025-06-15 16:42:48 UTC</createdTime>
-<ownerDesignName>MVP database</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="86E663B9-468F-757E-A71C-2559D41B9EB7"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="D9BFC2B3-3720-769D-FD09-D104DF2AD9F7" name="BOOK_FORMAT_BOOK_FK">
@@ -276,6 +278,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F84B3E99-E59F-140E-4FD9-B033BDA9A97D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93950EDE-B3E2-AE32-2E8A-6498124B3C3D" name="Book_BOOK_TYPE_FK">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-21 17:33:58 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6469E36-B5C2-0C9F-FC51-77D3D06A6BAF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

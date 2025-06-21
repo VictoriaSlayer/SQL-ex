@@ -1,17 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E5F5447-5EAF-2107-BC48-0CADBDCB7A44" name="COVER_TYPE">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="13860BB7-B69D-9B92-4245-DFD964C08E0A" name="BOOK_TYPE">
 <createdBy>Saint</createdBy>
-<createdTime>2025-06-18 05:54:07 UTC</createdTime>
-<commentInRDBMS><![CDATA[Справочник типов обложки]]></commentInRDBMS>
+<createdTime>2025-06-21 17:29:38 UTC</createdTime>
 <ownerDesignName>MVP database</ownerDesignName>
-<ordsAlias>table_14</ordsAlias>
+<ordsAlias>table_18</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="E5AD3FF4-3222-7F71-4170-40E9EB8CBE2C">
+<Column name="id" id="51FA5C36-2D6A-A41B-DDF1-5644289DD774">
 <createdBy>Saint</createdBy>
-<createdTime>2025-06-18 05:56:32 UTC</createdTime>
+<createdTime>2025-06-21 17:31:52 UTC</createdTime>
 <ownerDesignName>MVP database</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,39 +18,39 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="COVER_NAME" id="388D7E0A-5526-0D38-0436-C683042A484B">
+<Column name="BOOK_TYPE_NAME" id="3C410EE0-8447-222C-81EF-5F5149125C35">
 <createdBy>Saint</createdBy>
-<createdTime>2025-06-18 05:56:32 UTC</createdTime>
+<createdTime>2025-06-21 17:33:15 UTC</createdTime>
 <ownerDesignName>MVP database</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="50EC412E-AF50-3D87-3037-45B4537163B5" name="COVER_TYPE_PK">
+<ind_PK_UK id="C98D1EF7-F200-E682-F24D-32DB0864286A" name="BOOK_TYPE_PK">
 <createdBy>Saint</createdBy>
-<createdTime>2025-06-18 05:57:08 UTC</createdTime>
+<createdTime>2025-06-21 17:31:52 UTC</createdTime>
 <ownerDesignName>MVP database</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E5AD3FF4-3222-7F71-4170-40E9EB8CBE2C"/>
+<colUsage columnID="51FA5C36-2D6A-A41B-DDF1-5644289DD774"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1CD028D2-DC46-49B3-2B2A-835B5E485984" name="COVER_TYPE_UN">
+<ind_PK_UK id="D45EE28D-1CD8-DA07-4C16-B96B53A1F277" name="BOOK_TYPE_NAME_NAME_UN">
 <createdBy>Saint</createdBy>
-<createdTime>2025-06-18 05:59:20 UTC</createdTime>
+<createdTime>2025-06-21 17:33:15 UTC</createdTime>
 <ownerDesignName>MVP database</ownerDesignName>
 <indexState>Unique Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="388D7E0A-5526-0D38-0436-C683042A484B"/>
+<colUsage columnID="3C410EE0-8447-222C-81EF-5F5149125C35"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
