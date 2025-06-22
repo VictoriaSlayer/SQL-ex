@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E500C4A0-688E-340F-7C1C-43954355506B" name="PAPER_TYPE">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-22 07:02:30 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="F3BDA3F4-6B1F-8259-59A9-87A3F957ACF2">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-22 07:03:42 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAPER_NAME" id="EDCFC2D8-E4B5-62F4-57C1-8F123675496F">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-22 07:03:42 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9240A138-09F1-8D3D-5F42-BBE8DF3AFC1A" name="PAPER_TYPE_PK">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-22 07:03:42 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3BDA3F4-6B1F-8259-59A9-87A3F957ACF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36804720-1E66-FC46-1230-A64CCC1C71DF" name="PAPER_TYPE__UN">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-22 07:11:39 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDCFC2D8-E4B5-62F4-57C1-8F123675496F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="258DFAA1-2686-F9B3-459A-67D96D7CA4D5" containerWithKeyObject="E723CB4F-49F5-BFF0-D816-24D62D82FE50" localFKIndex="EA67F277-CF26-CDE0-63E0-044DCAA1796D" name="BOOK_PAPER_PAPER_TYPE_FK">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-22 07:08:47 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<referredTableLongName>PAPER_TYPE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E500C4A0-688E-340F-7C1C-43954355506B</referredTableID>
+<keyObject>9240A138-09F1-8D3D-5F42-BBE8DF3AFC1A</keyObject>
+<referredKeyID>9240A138-09F1-8D3D-5F42-BBE8DF3AFC1A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

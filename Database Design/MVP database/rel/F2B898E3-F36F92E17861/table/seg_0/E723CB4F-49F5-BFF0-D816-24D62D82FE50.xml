@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E723CB4F-49F5-BFF0-D816-24D62D82FE50" name="BOOK_PAPER">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-22 07:06:49 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="BD9FF840-EFA6-AE93-9D74-36EA08B589BB">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-22 07:07:59 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BOOK_ID" id="0501474A-13D4-1F06-1BE6-9CE704350B82">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-22 07:07:59 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F050085D-8344-7F9A-C953-C0AB7D317B3E" referredColumn="EE750CA9-FA7B-13E6-9577-AFDED80B84F5"/>
+</associations>
+</Column>
+<Column name="PAPER_TYPE_ID" id="8529CFA4-45DA-78DB-F3DD-9E2B788C2498">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-22 07:08:47 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="258DFAA1-2686-F9B3-459A-67D96D7CA4D5" referredColumn="F3BDA3F4-6B1F-8259-59A9-87A3F957ACF2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61BD81B8-B525-5312-C987-CE490F89A326" name="BOOK_PAPER_PK">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-22 07:07:59 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD9FF840-EFA6-AE93-9D74-36EA08B589BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CB668D8-6D01-575A-A7B0-1E377097C2B1" name="BOOK_PAPER__UN">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-22 07:11:19 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0501474A-13D4-1F06-1BE6-9CE704350B82"/>
+<colUsage columnID="8529CFA4-45DA-78DB-F3DD-9E2B788C2498"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA058B35-E53D-1F29-4859-776C041F71D4" name="BOOK_PAPER_Book_FK">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-22 07:08:26 UTC</createdTime>
+<generatorID>E1159918-802B-B0B9-512D-A709A08EA873</generatorID>
+<ownerDesignName>MVP database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0501474A-13D4-1F06-1BE6-9CE704350B82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EA67F277-CF26-CDE0-63E0-044DCAA1796D" name="BOOK_PAPER_PAPER_TYPE_FK">
+<createdBy>Saint</createdBy>
+<createdTime>2025-06-22 07:08:47 UTC</createdTime>
+<ownerDesignName>MVP database</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8529CFA4-45DA-78DB-F3DD-9E2B788C2498"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
